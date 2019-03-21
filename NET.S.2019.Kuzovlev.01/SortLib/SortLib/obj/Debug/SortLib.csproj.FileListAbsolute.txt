@@ -1,0 +1,6 @@
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\SortLib\bin\Debug\SortLib.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\SortLib\bin\Debug\SortLib.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\SortLib\obj\Debug\SortLib.csprojAssemblyReference.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\SortLib\obj\Debug\SortLib.csproj.CoreCompileInputs.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\SortLib\obj\Debug\SortLib.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\SortLib\obj\Debug\SortLib.pdb

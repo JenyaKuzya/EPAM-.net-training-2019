@@ -1,0 +1,36 @@
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.deps.json
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.runtimeconfig.json
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.runtimeconfig.dev.json
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\SortLib.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\SortLib.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.csprojAssemblyReference.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.csproj.CoreCompileInputs.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.AssemblyInfoInputs.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.AssemblyInfo.cs
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.csproj.CopyComplete
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM .net training\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.deps.json
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.runtimeconfig.json
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.runtimeconfig.dev.json
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\UnitTestProject.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\SortLib.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\bin\Debug\netcoreapp2.1\SortLib.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.csprojAssemblyReference.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.csproj.CoreCompileInputs.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.AssemblyInfoInputs.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.AssemblyInfo.cs
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.csproj.CopyComplete
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.01\SortLib\UnitTestProject\obj\Debug\netcoreapp2.1\UnitTestProject.pdb
