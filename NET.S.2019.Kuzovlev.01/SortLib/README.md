@@ -1,0 +1,1 @@
+Implement the methods of Quick sort and merge sort for integer numbers. Test the work of methods in console app or with unit testing.
