@@ -1,0 +1,16 @@
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Task1Tests.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Task1Tests.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Task1.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Task1.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\obj\Debug\Task1Tests.csprojAssemblyReference.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\obj\Debug\Task1Tests.csproj.CoreCompileInputs.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\obj\Debug\Task1Tests.csproj.CopyComplete
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\obj\Debug\Task1Tests.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.02\Task1\Task1Tests\obj\Debug\Task1Tests.pdb
