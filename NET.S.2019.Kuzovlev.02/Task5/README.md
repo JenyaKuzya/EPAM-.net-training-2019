@@ -1,4 +1,1 @@
-Реализовать алгоритм FindNthRoot, позволяющий вычислять корень n-ой
-степени ( n?N ) из числа ( a?R ) методом Ньютона с заданной точностью.
-Разработать модульные тесты (NUnit и (или) MS Unit Test) для тестирования
-метода.
+Implement the FindNthRoot algorithm, which allows calculating the nth root (n ? N) using the Newton method with a given precision. Add NUnit or MS Unit tests.

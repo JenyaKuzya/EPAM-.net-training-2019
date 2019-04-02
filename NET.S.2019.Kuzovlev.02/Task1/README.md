@@ -1,6 +1,1 @@
-ƒаны два целых знаковых четырех байтовых числа и две позиции битов i и j
-(i<j). –еализовать алгоритм InsertNumber вставки битов с j-ого по i-ый бит
-одного числа в другое так, чтобы биты второго числа занимали позиции с бита j
-по бит i (биты нумеруютс€ справа налево). –азработать модульные тесты
-(NUnit и(!) MS Unit Test) дл€ тестировани€ метода. (Ќиже по€снение к
-алгоритму)
+Implement the InsertNumber method which gets two integer numbers and two positions of bits i and j (i <j). The algorithm inserts bits of one number into another so that the bits of the second number take positions from bit j to bit i (bits are numbered from right to left). Add NUnit and (!) MS Unit Test to test the method.

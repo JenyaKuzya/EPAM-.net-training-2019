@@ -1,10 +1,3 @@
-2.Реализовать метод FindNextBiggerNumber, который принимает
-положительное целое число и возвращает ближайше наибольшее целое,
-состоящее из цифр исходного числа, и - 1 (null), если такого числа не
-существует. Разработать модульные тесты (NUnit или MS Unit Test) для
-тестирования метода.
+2.Implement the FindNextBiggerNumber method, which takes a positive integer and returns the closest largest integer consisting of the digits of the original number, and - 1 if no such number exists. Add NUnit or MS Unit tests.
 
-3.Добавить к методу FindNextBiggerNumber возможность вернуть время
-нахождения заданного числа, рассмотрев различные языковые
-возможности. Разработать модульные тесты (NUnit или MS Unit Test) для
-тестирования метода.
+3.Add to the FindNextBiggerNumber method the ability to return the time of finding in some different ways. Add NUnit or MS Unit tests.
