@@ -3,4 +3,4 @@ Implement a bubble sort algorithm for jagged integer arrays (do not use sorting 
 - in ascending (descending) order by sum of matrix row elements;
 - in ascending (descending) order of maximum elements of matrix rows;
 - in ascending (descending) order of minimum elements of matrix rows;
-Add unit tests.
+- Add unit tests.
