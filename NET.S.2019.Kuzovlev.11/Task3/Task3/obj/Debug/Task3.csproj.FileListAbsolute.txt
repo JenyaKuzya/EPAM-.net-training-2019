@@ -1,0 +1,6 @@
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.11\Task3\Task3\bin\Debug\Task3.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.11\Task3\Task3\bin\Debug\Task3.pdb
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.11\Task3\Task3\obj\Debug\Task3.csprojAssemblyReference.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.11\Task3\Task3\obj\Debug\Task3.csproj.CoreCompileInputs.cache
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.11\Task3\Task3\obj\Debug\Task3.dll
+C:\Users\XTreme.ws\Documents\Учёба\epam\EPAM-.net-training-2019\NET.S.2019.Kuzovlev.11\Task3\Task3\obj\Debug\Task3.pdb
