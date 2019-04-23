@@ -17,7 +17,7 @@ namespace Task1
         public Node<T> Next { get; set; }
     }
 
-    public class Queue<T> : IEnumerable<T>
+    public class MyQueue<T> : IEnumerable<T>
     {
         private Node<T> head;
         private Node<T> tail; 

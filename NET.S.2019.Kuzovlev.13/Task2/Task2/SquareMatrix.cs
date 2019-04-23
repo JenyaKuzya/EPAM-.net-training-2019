@@ -42,11 +42,16 @@ namespace Task2
                     throw new IndexOutOfRangeException();
                 }
                 _matrix[index1, index2] = value;
-                ChangeElement?.Invoke(this, new ChangeEventArgs(index1, index2));
+                OnChange(index1, index2);               
             }
-        }        
+        }    
+        
+        protected void OnChange(int index1, int index2)
+        {
+            ChangeElement?.Invoke(this, new ChangeEventArgs(index1, index2));
+        }
 
-        /*public static SquareMatrix<T> operator +(SquareMatrix<T> arg1, SquareMatrix<T> arg2)
+        public static SquareMatrix<T> operator +(SquareMatrix<T> arg1, SquareMatrix<T> arg2)
         {
             if (arg1 == null || arg2 == null)
                 throw new ArgumentNullException();
@@ -54,13 +59,20 @@ namespace Task2
             int shortestLength = Math.Min(arg1.GetLength, arg2.GetLength);
             SquareMatrix<T> argWithshortestLength = arg1.GetLength == shortestLength ? arg1 : arg2;
 
-            for (int i = 0; i < shortestLength; i++)
-                for (int j = 0; j < shortestLength; j++)
-                {
-                    arg1[i, j] = arg1[i, j] + arg2[i, j];
-                }
+            try
+            {
+                for (int i = 0; i < shortestLength; i++)
+                    for (int j = 0; j < shortestLength; j++)
+                    {
+                        arg1[i, j] += (dynamic)arg2[i, j];
+                    }
+            }
+            catch
+            {
+                Console.WriteLine("Невозможно сложить элементы матрицы.");
+            }
 
             return arg1;
-        }*/
+        }
     }
 }

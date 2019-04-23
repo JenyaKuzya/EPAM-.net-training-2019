@@ -28,7 +28,7 @@ namespace Task2
                 }
                 _matrix[index1, index2] = value;
                 _matrix[index2, index1] = value;
-                ChangeElement?.Invoke(this, new ChangeEventArgs(index1, index2));
+                OnChange(index1, index2);
             }
         }
     }

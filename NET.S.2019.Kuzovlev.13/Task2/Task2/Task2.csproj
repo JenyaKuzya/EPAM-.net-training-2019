@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="ChangeEventArgs.cs" />
     <Compile Include="DiagonalMatrix.cs" />
-    <Compile Include="MatrixExtension.cs" />
     <Compile Include="SquareMatrix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SymmetricMatrix.cs" />

@@ -26,8 +26,13 @@ namespace Task2
                 {
                     throw new IndexOutOfRangeException();
                 }
-                _matrix[index1, index1] = value;
-                ChangeElement?.Invoke(this, new ChangeEventArgs(index1, index1));
+
+                if (index1 != index2)
+                {
+                    throw new ArgumentException("Indexes should be equal.");
+                }
+                _matrix[index1, index2] = value;
+                OnChange(index1, index2);
             }
         }
     }
