@@ -1,9 +1,1 @@
-Создать обобщенные классы для представления квадратной, симметрической и
-диагональной матриц (симметрическая матрица – это квадратная матрица,
-которая совпадает с транспонированной к ней; диагональная матрица – это
-квадратная матрица, у которой элементы вне главной диагонали заведомо
-имеют значения по умолчанию типа элемента). Описать в созданных классах
-событие, которое происходит при изменении элемента матрицы с индексами (i,
-j). Расширить функциональность существующей иерархии классов, добавив
-возможность операции сложения двух матриц любого типа. Разработать unit-
-тесты.
+Create generic classes for representing square, symmetric and diagonal matrices (a symmetric matrix is ??a square matrix that matches a transposed matrix; a diagonal matrix is ??a square matrix whose elements outside the main diagonal certainly have element type default values). Implement in the created classes an event that occurs when the matrix element with indices (i, j) changes. Extend the functionality of the existing class hierarchy by adding the ability to add two matrices of any type. Add unit tests.

@@ -1,12 +1,7 @@
-2.  –азработать систему типов дл€ описани€ работы с банковским счетом. —осто€ние счета определ€етс€ его номером, данными о владельце счета (им€, фамили€), суммой на счете и некоторыми бонусными баллами, которые увеличиваютс€/уменьшаютс€ каждый раз при пополнении счета/списании со счета на величины различные дл€ пополнени€ и списани€ и рассчитываемые в зависимости от некоторых значений величин Ђстоимостиї баланса и Ђстоимостиї пополнени€. ¬еличины Ђстоимостиї баланса и Ђстоимостиї пополнени€ €вл€ютс€ целочисленными значени€ми и завис€т от градации счета, который может быть, например,  Base, Gold, Platinum.
-ƒл€ работы со счетом реализовать следующие возможности: 
--	выполнить пополнение на счет;
--	выполнить списание со счета; 
--	создать новый счет; 
--	закрыть счет. 
-»нформаци€ о счетах хранитьс€ в бинарном файле.
-–аботу классов продемонстрировать на примере консольного приложени€. 
-ѕри проектировании типов учитывать следующие возможности расширени€/изменени€ функциональности
--	добавление новых видов счетов;
--	изменение/добавление источников хранени€ информации о счетах;
--	изменение логики расчета бонусных баллов.
+Develop a type system describing work with a bank account. The state of the account is determined by its ID, account holder (name, surname), balance and bonus points. Bonus points increase / decrease each time the account is credited / debited by values. Points integers and depend on accuont status, which could be Base, Gold, Platinum, etc. Implement service that provides the following dunctionality:
+
+- Add a new bank account.
+- Withdraw some cash.
+- Deposit some cash.
+- Close an existing account. 
+Data must be stored in a binary file. Test classes by a console application.

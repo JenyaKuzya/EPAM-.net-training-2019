@@ -26,20 +26,32 @@ namespace Task3
         private BinaryTreeNode _root;
         private readonly Comparison<T> _compareFunction;
 
+        public bool IsEmpty { get { return _root == null; } }
+
         public BinarySearchTree(Comparison<T> compareFunction)
         {
             _root = null;
-            _compareFunction = compareFunction;
+            if (compareFunction != null)
+                _compareFunction = compareFunction;
+            else
+                _compareFunction = Comparer<T>.Default.Compare;
         }
 
-        public void Add(T Value)
+        public BinarySearchTree() : this((Comparison<T>)null)
         {
+        }
+
+        public void Add(T value)
+        {
+            if (value == null)
+                throw new ArgumentNullException();
+
             BinaryTreeNode child = new BinaryTreeNode
             {
-                Data = Value
+                Data = value
             };
 
-            if (_root == null)
+            if (IsEmpty)
             {
                 _root = child;
             }
@@ -48,7 +60,7 @@ namespace Task3
                 BinaryTreeNode iterator = _root;
                 while (true)
                 {
-                    int compareResult = _compareFunction(Value, iterator.Data);
+                    int compareResult = _compareFunction(value, iterator.Data);
 
                     if (compareResult <= 0)
                         if (iterator.Left != null)
@@ -79,157 +91,108 @@ namespace Task3
             }
         }
 
-        public bool IsContain(T Value)
+        public void Add(IEnumerable<T> elements)
         {
-            BinaryTreeNode iterator = _root;
-            while (iterator != null)
-            {
-                int compareResult = _compareFunction(Value, iterator.Data);
+            if (elements == null)
+                throw new ArgumentNullException();
 
-                if (compareResult == 0)
-                    return true;
-                else if (compareResult < 0)
-                    iterator = iterator.Left;
-                else
-                    iterator = iterator.Right;
+            foreach (T value in elements)
+            {
+                if (value == null)
+                    throw new ArgumentNullException();
+
+                Add(value);
             }
+        }
+
+        public bool IsContain(T value)
+        {
+            if (value == null)
+                throw new ArgumentNullException();
+
+            if (!IsEmpty)
+            {
+                BinaryTreeNode iterator = _root;
+                while (iterator != null)
+                {
+                    int compareResult = _compareFunction(value, iterator.Data);
+
+                    if (compareResult == 0)
+                        return true;
+                    else if (compareResult < 0)
+                        iterator = iterator.Left;
+                    else
+                        iterator = iterator.Right;
+                }
+            }
+           
             return false;
         }        
-
-        public IEnumerator<T> InOrderTraversal()
-        {
-            if (_root != null)
-            {
-                // Стек для сохранения пропущенных узлов.
-                Stack<BinaryTreeNode> stack = new Stack<BinaryTreeNode>();
-
-                BinaryTreeNode current = _root;
-
-                // Когда мы избавляемся от рекурсии, нам необходимо
-                // запоминать, в какую стороны мы должны двигаться.
-                bool goLeftNext = true;
-
-                // Кладем в стек корень.
-                stack.Push(current);
-
-                while (stack.Count > 0)
-                {
-                    // Если мы идем налево...
-                    if (goLeftNext)
-                    {
-                        // Кладем все, кроме самого левого узла на стек.
-                        // Крайний левый узел мы вернем с помощю yield.
-                        while (current.Left != null)
-                        {
-                            stack.Push(current);
-                            current = current.Left;
-                        }
-                    }
-
-                    // Префиксный порядок: left->yield->right.
-                    yield return current.Data;
-
-                    // Если мы можем пойти направо, идем.
-                    if (current.Right != null)
-                    {
-                        current = current.Right;
-
-                        // После того, как мы пошли направо один раз,
-                        // мы должным снова пойти налево.
-                        goLeftNext = true;
-                    }
-                    else
-                    {
-                        // Если мы не можем пойти направо, мы должны достать родительский узел
-                        // со стека, обработать его и идти в его правого ребенка.
-                        current = stack.Pop();
-                        goLeftNext = false;
-                    }
-                }
-            }
-        }
-
-        public IEnumerator<T> PreOrderTraversal()
-        {
-            if (_root != null)
-            {
-                Stack<BinaryTreeNode> stack = new Stack<BinaryTreeNode>();
-
-                BinaryTreeNode current = _root;
-
-                bool goLeftNext = true;
-
-                stack.Push(current);
-
-                while (stack.Count > 0)
-                {
-                    if (goLeftNext)
-                    {
-                        while (current.Left != null)
-                        {
-                            yield return current.Data;
-                            stack.Push(current);
-                            current = current.Left;
-                        }
-                    }
-
-                    if (current.Right != null)
-                    {
-                        current = current.Right;
-                        goLeftNext = true;
-                    }
-                    else
-                    {
-                        yield return current.Data;
-                        current = stack.Pop();
-                        goLeftNext = false;
-                    }
-                }
-            }
-        }
-
-        public IEnumerator<T> PostOrderTraversal()
-        {
-            if (_root != null)
-            {
-                Stack<BinaryTreeNode> stack = new Stack<BinaryTreeNode>();
-
-                BinaryTreeNode current = _root;
-
-                bool goLeftNext = true;
-
-                stack.Push(current);
-
-                while (stack.Count > 0)
-                {
-                    if (goLeftNext)
-                    {
-                        while (current.Left != null)
-                        {
-                            stack.Push(current);
-                            current = current.Left;
-                        }
-                    }
-                    yield return current.Data;
-
-                    if (current.Right != null)
-                    {
-                        current = current.Right;
-                        goLeftNext = true;
-                    }
-                    else
-                    {
-                        yield return current.Data;
-                        current = stack.Pop();
-                        goLeftNext = false;
-                    }
-                }
-            }
-        }
 
         public void Clear()
         {
             _root = null;
+        }
+
+        private IEnumerable<T> Inorder(BinaryTreeNode node)
+        {
+            if (node.Left != null)
+                foreach (T currValue in Inorder(node.Left))
+                    yield return currValue;
+
+            yield return node.Data;
+            if (node.Right != null)
+                foreach (T currValue in Inorder(node.Right))
+                    yield return currValue;
+        }
+
+        private IEnumerable<T> Preorder(BinaryTreeNode node)
+        {
+            yield return node.Data;
+            if (node.Left != null)
+                foreach (T currValue in Preorder(node.Left))
+                    yield return currValue;
+
+            if (node.Right != null)
+                foreach (T currValue in Preorder(node.Right))
+                    yield return currValue;
+        }
+
+        private IEnumerable<T> Postorder(BinaryTreeNode node)
+        {
+            if (node.Left != null)
+                foreach (T currValue in Postorder(node.Left))
+                    yield return currValue;
+
+            if (node.Right != null)
+                foreach (T currValue in Postorder(node.Right))
+                    yield return currValue;
+
+            yield return node.Data;
+        }
+
+        public IEnumerable<T> InorderTraversal()
+        {
+            if (_root == null)
+                throw new NullReferenceException();
+
+            return Inorder(_root);
+        }
+
+        public IEnumerable<T> PreorderTraversal()
+        {
+            if (_root == null)
+                throw new NullReferenceException();
+
+            return Preorder(_root);
+        }
+
+        public IEnumerable<T> PostorderTraversal()
+        {
+            if (_root == null)
+                throw new NullReferenceException();
+
+            return Postorder(_root);
         }
     }
 }

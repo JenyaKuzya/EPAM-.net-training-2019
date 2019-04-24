@@ -1,4 +1,1 @@
-–азработать обобщенный класс-коллекцию Queue, реализующий основные
-операции дл€ работы с очередью, и предоставл€ющий возможность
-итерировани€, реализовав итератор Ђвручнуюї (без использовани€ блок-
-итератора yield). ѕротестировать методы разработанного класса.
+Develop a generic class Queue collection that implements the basic operations for working with the queue and allows iteration by implementing an УmanuallyФ iterator (without using the yield block iterator). Test the methods of the developed class.

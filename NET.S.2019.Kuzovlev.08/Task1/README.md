@@ -1,4 +1,7 @@
-1. –азработать класс Book (ISBN, автор, название, издательство, год издани€, количество страниц, цена), переопределив дл€ него необходимые методы класса Object. ƒл€ объектов класса реализовать отношени€ эквивалентности и пор€дка (использу€ соответствующие интерфейсы). ƒл€ выполнени€ основных операций со списком книг, который можно загрузить и, если возникнет необходимость, сохранить в некоторое хранилище BookListStorage разработать класс BookListService (как сервис дл€ работы с коллекцией книг) с функциональностью AddBook (добавить книгу, если такой книги нет, в противном случае выбросить исключение); RemoveBook (удалить книгу, если она есть, в противном случае выбросить исключение); FindBookByTag (найти книгу по заданному критерию); SortBooksByTag (отсортировать список книг по заданному критерию), при реализации делегаты не использовать!
-–аботу классов продемонстрировать на примере консольного приложени€. 
-¬ качестве хранилища использовать
-- двоичный файл, дл€ работы с которым использовать только классы BinaryReader, BinaryWriter. ’ранилище в дальнейшем может изменитьс€/добавитьс€.
+Create a Book class (ISBN, author, title, publisher, year of publication, number of pages, price). Override all necessary methods of *Object( class. Implement IComparable and IEquatable interfaces for Book class. Create a BookListService class as a service to work with a collection of books with the following methods:
+
+- AddBook (adds a book if not exists in the collection, otherwise throws an exception);
+- RemoveBook (removes a book if it exists, otherwise throws an exception);
+- FindBookByTag (finds a book by a given criterio);
+- SortBooksByTag (sorts books by a given criterio).
+- Create a BookListService class to perform basic operations with a list of books, which can be loaded and/or saved in a BookListStorage. Test classes by a console application. Use a binary file as storage. Only BinaryReader and BinaryWriter classes are allowed to work with. Do not use delegates.

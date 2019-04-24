@@ -1,1 +1,1 @@
-Реализовать метод для генерации последовательности чисел Фибоначчи.
+Implement a method to generate a sequence of Fibonacci numbers.

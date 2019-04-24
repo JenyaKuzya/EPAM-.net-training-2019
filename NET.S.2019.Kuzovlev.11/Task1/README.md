@@ -1,3 +1,1 @@
-Для приложения с сервисом книг реализовать возможность логирования
-сообщений различного уровня, предусмотрев возможность использования
-различных фреймворков для логирования.
+Implement logic of logging messages at various levels, providing the possibility of using different frameworks.
