@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace Task1
 {
+
     public class Book: IEquatable<Book>, IComparable<Book>
     {
         public string Title { get; }
